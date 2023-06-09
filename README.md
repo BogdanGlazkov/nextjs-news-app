@@ -1,38 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Search News App</h1>
+<hr>
+<p>You can find latest news here</p>
+<h2>General Information</h2>
+<hr><ul>
+<li>Next.js application for displaying world's breaking news, and news by search query and by category. There're 3 pages here: Breaking News page, Search page and Category page that contains 7 categories. All news are provided by https://newsapi.org</li>
+</ul><ul>
+<li>You can navigate beetween pages using links on the top left corner. By clicking the news card you'll be redirected to the origin news page</li>
+</ul><ul>
+<li>Live page: https://nextjs-news-app-flame.vercel.app/</li></ul>
+<h2>Technologies Used</h2>
+<hr><ul>
+<li>HTML</li>
+</ul><ul>
+<li>CSS</li>
+</ul><ul>
+<li>JavaScript</li>
+</ul><ul>
+</ul><ul>
+<li>TypeScript</li>
+</ul><ul>
+<li>Next.js</li></ul>
+<h2>Screenshots</h2>
+<img src="./public/screenshot-app.jpg" alt="Screenshot" width="800" />
+<h2>Setup</h2>
+<hr><p>To set up the project you can clone it from this repo: https://github.com/BogdanGlazkov/nextjs-news-app</p><h5>Steps</h5><ul>
+<li>npm i</li>
+</ul><ul>
+<li>npm run dev</li>
+</ul>
+<h5>Code Examples</h5><ul>
+<li>This project uses React function components, React hooks, bootstrap library for styling, Next.js functions getStaticPaths, getStaticProps and getServerSideProps instead of backend. Here is a code example of Footer component</li>
+</ul>
+<p><code>import s from "../styles/App.module.css";
 
-## Getting Started
+const Footer = () => {
+return (
 
-First, run the development server:
+<footer>
+<div className={s.footer}>
+<p>&copy; 2023 Created by Bogdan Glazkov</p>
+<a href="mailto:bglazkov@i.ua">bglazkov@i.ua</a>
+</div>
+</footer>
+);
+};
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+export default Footer;</code></p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h2>Project Status</h2>
+<hr><p>Completed</p>
+<h2>Features that can be added</h2>
+<hr><ul>
+<li>Favorite news</li>
+</ul><ul>
+<li>Authorization</li>
+</ul>
+<h2>Acknowledgement</h2>
+<hr><ul>
+<li>This project was based on Codinginflow Next.js tutorials</li>
+</ul><h2>Contact</h2>
+<hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/bogdan-glazkov/"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://github.com/BogdanGlazkov"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
