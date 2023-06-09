@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <title key="title">NextJS News App</title>
         <meta name="description" content="NextJS news app" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/news-icon.png" />
       </Head>
       <NextNProgress />
       <NavBar />
