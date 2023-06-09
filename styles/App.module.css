@@ -1,3 +1,28 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
 .pageContainer {
+  flex-grow: 1;
   margin: 2rem auto;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px;
+}
+
+.footer > a:hover,
+.footer > a:focus {
+  opacity: 0.6;
+  transition: all ease-in-out 300ms;
 }

@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import { Container } from "react-bootstrap";
 import NextNProgress from "nextjs-progressbar";
 import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 import "@/styles/globals.css";
 import s from "@/styles/App.module.css";
 
@@ -21,9 +22,12 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <NextNProgress />
       <NavBar />
-      <Container className={s.pageContainer}>
-        <Component {...pageProps} />
-      </Container>
+      <div className={s.pageWrapper}>
+        <Container className={s.pageContainer}>
+          <Component {...pageProps} />
+        </Container>
+        <Footer />
+      </div>
     </div>
   );
 }

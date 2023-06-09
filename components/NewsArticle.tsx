@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap";
 import { INewsArticle } from "@/models/NewsArticles";
 import Image from "next/image";
 import placeholderImage from "@/assets/images/newsarticle_placeholder.jpg";
-import s from "@/styles/NewsArticle.module.css";
+import s from "@/styles/App.module.css";
 
 interface NewsArticleProps {
   article: INewsArticle;

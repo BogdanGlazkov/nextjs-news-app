@@ -1,6 +1,5 @@
 import { GetServerSideProps } from "next";
 import Head from "next/head";
-import { Alert } from "react-bootstrap";
 import { INewsArticle, INewsResponse } from "@/models/NewsArticles";
 import NewsArticlesGrid from "@/components/NewsArticlesGrid";
 
@@ -29,11 +28,6 @@ export default function BreakingNewsPage({
       </Head>
       <main>
         <h1>Breaking News</h1>
-        <Alert>
-          This page uses <strong>getServerSideProps</strong> to fetch data
-          server-side on every request. This allows search engines to crawl the
-          page content and <strong>improves SEO.</strong>
-        </Alert>
         <NewsArticlesGrid articles={newsArticles} />
       </main>
     </>

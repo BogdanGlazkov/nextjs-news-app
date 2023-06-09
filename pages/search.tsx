@@ -1,5 +1,5 @@
 import { FormEvent, useState } from "react";
-import { Alert, Button, Form, Spinner } from "react-bootstrap";
+import { Button, Form, Spinner } from "react-bootstrap";
 import { INewsArticle } from "@/models/NewsArticles";
 import NewsArticlesGrid from "@/components/NewsArticlesGrid";
 import Head from "next/head";
@@ -41,11 +41,6 @@ const SearchNewsPage = () => {
       </Head>
       <main>
         <h1>Search News</h1>
-        <Alert>
-          This page uses <strong>client-side data fetching</strong> to show
-          fresh data for every search. Requests are handled by our backend via
-          <strong> API routes.</strong>
-        </Alert>
 
         <Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="search-input">
