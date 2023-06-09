@@ -9,25 +9,18 @@
 </ul><ul>
 <li>Live page: https://nextjs-news-app-flame.vercel.app/</li></ul>
 <h2>Technologies Used</h2>
-<hr><ul>
-<li>HTML</li>
-</ul><ul>
-<li>CSS</li>
-</ul><ul>
-<li>JavaScript</li>
-</ul><ul>
-</ul><ul>
-<li>TypeScript</li>
-</ul><ul>
-<li>Next.js</li></ul>
+<hr>
+<ul><li>JavaScript</li></ul>
+<ul><li>TypeScript</li></ul>
+<ul><li>Next.js</li></ul>
+<ul><li>CSS</li></ul>
 <h2>Screenshots</h2>
 <img src="./public/screenshot-app.jpg" alt="Screenshot" width="800" />
 <h2>Setup</h2>
-<hr><p>To set up the project you can clone it from this repo: https://github.com/BogdanGlazkov/nextjs-news-app</p><h5>Steps</h5><ul>
-<li>npm i</li>
-</ul><ul>
-<li>npm run dev</li>
-</ul>
+<hr><p>To set up the project you can clone it from this repo: https://github.com/BogdanGlazkov/nextjs-news-app</p><h5>Steps</h5>
+<ul><li>npm i</li></ul>
+<ul><li>npm run dev</li></ul>
+<ul><li>npm run build</li></ul>
 <h5>Code Examples</h5><ul>
 <li>This project uses React function components, React hooks, bootstrap library for styling, Next.js functions getStaticPaths, getStaticProps and getServerSideProps instead of backend. Here is a code example of Footer component</li>
 </ul>
@@ -36,12 +29,15 @@
 const Footer = () => {
 return (
 
+<pre>
 <footer>
 <div className={s.footer}>
 <p>&copy; 2023 Created by Bogdan Glazkov</p>
 <a href="mailto:bglazkov@i.ua">bglazkov@i.ua</a>
 </div>
 </footer>
+</pre>
+
 );
 };
 
